@@ -1,0 +1,43 @@
+{
+  "name": "@fullstackcraftllc/codevideo-react-components",
+  "version": "1.0.0",
+  "description": "A series of React components used throughout the CodeVideo ecosystem.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "type-check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princefishthrower/codevideo-react-components.git"
+  },
+  "keywords": [
+    "CodeVideo",
+    "React",
+    "TypeScript"
+  ],
+  "author": "Chris Frewin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/princefishthrower/codevideo-react-components/issues"
+  },
+  "homepage": "https://github.com/princefishthrower/codevideo-react-components#readme",
+  "dependencies": {
+    "@fullstackcraftllc/codevideo-types": "^2.1.15"
+  },
+  "devDependencies": {
+    "@radix-ui/themes": "^3.2.1",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-replace": "^6.0.2",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.1.2",
+    "rollup": "^4.40.0",
+    "rollup-plugin-dts": "^6.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-visualizer": "^5.14.0"
+  }
+}
