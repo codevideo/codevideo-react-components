@@ -1,6 +1,6 @@
 {
   "name": "@fullstackcraftllc/codevideo-react-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A series of React components used throughout the CodeVideo ecosystem.",
   "type": "module",
   "main": "dist/index.js",

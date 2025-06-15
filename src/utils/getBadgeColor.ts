@@ -20,7 +20,7 @@ export const getBadgeColor = (actionName: AllActions): string => {
   } else if (isFileExplorerAction({name: actionName, value: ""})) {
     return 'green';
   } else if (isMouseAction({name: actionName, value: ""})) {
-    return 'purple';
+    return 'orange';
   } else if (isAuthorAction({name: actionName, value: ""})) {
     return 'blue';
   } else if (isExternalAction({name: actionName, value: ""})) {
