@@ -1,6 +1,6 @@
 {
   "name": "@fullstackcraftllc/codevideo-react-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A series of React components used throughout the CodeVideo ecosystem.",
   "type": "module",
   "main": "dist/index.js",
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/princefishthrower/codevideo-react-components#readme",
   "dependencies": {
-    "@fullstackcraftllc/codevideo-types": "^2.1.15"
+    "@fullstackcraftllc/codevideo-types": "^2.1.28"
   },
   "devDependencies": {
     "@radix-ui/themes": "^2.0.3",
