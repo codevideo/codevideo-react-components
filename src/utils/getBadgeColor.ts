@@ -1,5 +1,5 @@
 // src/utils/getBadgeColor.ts
-import { AllActions } from '@fullstackcraftllc/codevideo-types';
+import { AllActions, isCompositeAction } from '@fullstackcraftllc/codevideo-types';
 import { 
   isEditorAction,
   isTerminalAction,
@@ -27,6 +27,8 @@ export const getBadgeColor = (actionName: AllActions): string => {
     return 'yellow';
   } else if (isSlideAction({name: actionName, value: ""})) {
     return 'cyan';
+  } else if (isCompositeAction({name: actionName, value: ""})) {
+    return 'pink';
   }
   
   // Default color

@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/princefishthrower/codevideo-react-components#readme",
   "dependencies": {
-    "@fullstackcraftllc/codevideo-types": "^2.1.28"
+    "@fullstackcraftllc/codevideo-types": "^2.1.32"
   },
   "devDependencies": {
     "@radix-ui/themes": "^2.0.3",
